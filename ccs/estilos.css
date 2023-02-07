@@ -2,15 +2,20 @@ body {
     color: black;
     text-align: center;
     font-family: "arial";
+    font-size: 16px;
+    margin: 0;
+    padding: 0;
 }
 
-#cabecera {
+#cabecera #logo {
     background: #33a;
     box-shadow: 0px 5px 30px 0px rgba(red, green, blue, alpha);
     color: white;
     margin: 0;
     padding: 0.5em;
     font-weight: bold;
+    width: 20px;
+    vertical-align: middle;
 }
 
 #tagline {
@@ -29,4 +34,9 @@ body {
 
 #container h1 {
     font-size: 20px;
+}
+
+#post {
+    background: white;
+    padding: 1em;
 }
